@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Site</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li onclick="toggle('functions')">Functions</li>
+            <li onclick="toggle('closures')">Closures</li>
+            <li onclick="toggle('prototypes')">Prototypes</li>
+            <li onclick="toggle('objects')">Objects</li>
+            <li onclick="toggle('encapsulation')">Encapsulation</li>
+            <li onclick="toggle('inheritance')">Inheritance</li>
+        </ul>
+    </nav>
+
+    <!-- <div class="functions" id="functions">
+    <h4>Functions </h4>
+    <h5>Find Power of a Number</h5>
+    <label for="Number"> Number:
+        <input type="number" id="num">
+    </label>
+    <label for="Number"> Power:
+        <input type="number" id="power">
+    </label>
+    <button onclick="findPower()">Calculate</button>
+    <code>
+        Result: <span id="pow-result"></span>
+    </code>
+<input type="text" id="name">
+    <button onclick="displayMessage()">Display Message</button>
+    
+</div> -->
+
+    <div class="functions">
+        <h4>Functions</h4>
+        <pre>
+        function getRate(val) { // 'val' is the parameter 
+            let result = val * 0.15;
+            return result; 
+        }
+        let rate = getRate(100); // '100' is the argument
+        console.log(rate); 
+    </pre>
+    <button onclick="getRate(100)">Get Rate</button>
+    </div>
+
+</body>
+
+</html>

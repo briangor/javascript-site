@@ -1,0 +1,33 @@
+body {
+  background-color: antiquewhite;
+}
+
+nav {
+  padding: 1em 0;
+  border-bottom: 1px solid plum;
+}
+nav ul {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+nav ul li:hover {
+  color: #324392;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  nav ul {
+    width: 100%;
+    display: block;
+    line-height: 1.3em;
+  }
+}
+.functions pre {
+  border: 1px solid rgb(210, 210, 210);
+}
+
+/*# sourceMappingURL=style.css.map */
